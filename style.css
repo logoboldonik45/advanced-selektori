@@ -1,0 +1,16 @@
+#hover:hover {
+	font-style:italic;
+}
+.content:after {
+    content:'NEW';
+	color:yellow;
+}
+.green {
+	color:green;
+}
+#red , .red2 {
+	color:red;
+}
+.blue {
+	color:blue;
+}
