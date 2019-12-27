@@ -1,16 +1,19 @@
-#hover:hover {
-	font-style:italic;
-}
-.content:after {
-    content:'NEW';
-	color:yellow;
-}
-.green {
+a[href*="https://www.google.com/"] {
 	color:green;
 }
-#red , .red2 {
+a[target] {
 	color:red;
 }
-.blue {
+#first-div > p::after{
+	content:"NEW";
+	color:yellow
+}
+#second-div > p:nth-child(even){
+	color:red;
+}
+#second-div > p:nth-child(odd){
 	color:blue;
+}
+body > p:hover:nth-last-child(1) {
+	font-style:italic;
 }
